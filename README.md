@@ -4,7 +4,7 @@
   This project is to use VBA scripting to analyze generated stock market data. There are two datasets to be analyzed: one is the Test Data which is used while developing the scripts, another is the Stock Data which is the main data to generate the final report. Both of the datasets are real stock market data and are sourced into Excel. The Test Data has five sheets (A-F), and the data set is smaller and can be run faster. The Stock Data has three sheets(2018,2019,2020), and the data size is larger and takes time to run.
 ## Solution: 
   A loop was created through all the stock data for one year to output the ticker symbol, yearly change, the percent change, the volume of the stock and the greatest of increase change, decrease change and the total volume. 
-Solution 1: The Ticker Symbol
+## Solution 1: The Ticker Symbol
   The distinct Ticker name was sorted and output to Column "I". The conditional script should be used to find the different Ticker symbol.
 ## Solution 2: Yearly Change
   Find the opening price at the beginning of a given year for each Ticker, and then find its closing price at the end of that year. The difference between the two prices is the value of yearly change. And then display the value on "J" column. 
