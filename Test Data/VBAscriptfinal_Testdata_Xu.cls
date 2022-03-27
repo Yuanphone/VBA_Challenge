@@ -32,6 +32,9 @@ Dim yearlyclose As Double
 Dim mmax As Double
 Dim mmin As Double
 Dim mvolmax As Double
+Dim mmax_row As Long
+Dim mmin_row As Long
+Dim mvolmax_row As Long
 
  lastrow = ws.Cells(Rows.Count, 1).End(xlUp).Row
  ws.Cells(1, 9).Value = "Ticker"
@@ -133,6 +136,8 @@ Next i
  Next ws
  
  End Sub
+
+
 
 
 
