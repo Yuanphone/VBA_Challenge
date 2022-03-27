@@ -10,7 +10,7 @@
   Find the opening price at the beginning of a given year for each Ticker, and then find its closing price at the end of that year. The difference between the two prices is the value of yearly change. And then display the value on "J" column. 
 ## Solution 3: The Percent Change
   Calculate the percentage of the value of yearly change for each Ticker in the opening price at the beginning of a given year, and put the percentage into the column "K". For the column of percent change, conditional formatting was used to highlight positive change in green and negative change in red.
-##Solution 4: The Greatest of Increase Change, Decrease Change and the Total Volume
+## Solution 4: The Greatest of Increase Change, Decrease Change and the Total Volume
   Find the maximum and minimum values of percent change and the maximum value of the total volume, and find their Ticker name at the same time.
 ## The final solutions for Stock Data (2018-2020) are given below:
 
